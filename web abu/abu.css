@@ -1,0 +1,129 @@
+.wrapper {
+    width: 700px;
+    margin: auto;
+    font-size: 90px;
+    float: right;
+    font-weight: 300px;
+    font-family: Courier;
+    color: #F5F0BB;
+    position: relative;
+    background-color: FBB454;
+}
+
+.navigasi{
+    background-color: #73A9AD;
+    color: darkblue;
+    font-size: 30px;
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+    margin: 0px;
+    padding: none;
+    padding-top: 5px;
+    top: 0%;
+    position: fixed;
+    width: 120%;
+}
+
+.navigasi li{
+    float: left;
+    margin: 10px;
+}
+
+.navigasi a {
+    color: aliceblue;
+}
+body {
+    background-color: #57CC99;
+    color: #876445;
+}
+.gambar{
+    width: 300px;
+    border-radius: 300px;
+    
+}
+.gambar{
+    padding: 5px;
+}
+
+.ig{
+    weight: 45px;
+    height: 60px;
+    margin: 10px;
+}
+#teks2{
+    font-size: 30px;
+}
+.teks{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.arah{
+    background-color: #73A9AD;
+    color: brown;
+    font-family: monospace;
+    font-size: 17px;
+}
+.foto{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #73A9AD;
+}
+.foto:hover{
+    transform: scale(1.3);
+}
+
+#galler{
+    
+}
+
+.navigasi a:hover{
+    text-decoration: underline;
+    color: #E8A0BF;
+}
+.bpk{
+    padding-top: 60px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 50px;
+    padding-bottom: 20px;
+}
+h2{
+    margin: 0%;
+}
+.osis{
+    padding-top: 0px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 50px;
+    margin-bottom: 20px;
+    padding-right: 55px;
+    margin-top: 0px;
+    color: #51557E;
+}
+form input{
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+form select{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+form textarea{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+form button{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.babu{
+    color: #D61C4E;
+    font-family: 'Gill Sans';
+    font-size: 50px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi OutPut JS</title>
+</head>
+<body>
+    <h1>Tutorial Javascript untuk Pemula</h1>
+    <button onclick="Touchme()">Touch Me!</button>
+    <button onclick="Nodaime()">Nodai Aku!</button>
+    <button onclick="Siksame()">Siksa Aku!</button>
+     <h1 id="Touchme1"></h1>
+     <h1 id="Touchme2"></h1>
+     <h1 id="output_select"></h1>
+    <select id="pilih" onchange="Tampil()"> 
+        <option value="udin">Samsudin</option>
+        <option value="jin">Jindan</option>
+        <option value="Kaori">Kaori Miyazono</option>
+    </select>
+<script>
+    var Touchme1 = document.getElementById ('Touchme1'); 
+    var Touchme2 = document.getElementById ("Touchme2");
+    var pilih = document.getElementById ('pilih');
+    var output_select = document.getElementById ('output_select');
+
+    function Tampil() {
+        if (pilih.value == 'udin'){
+            output_select.innerHTML = 'Hooh Tenann';
+        } else if (pilih.value == 'jin'){
+            output_select.innerHTML = 'Kadang-kadang Ente';
+        } else if (pilih.value == 'Kaori'){
+            output_select.innerHTML = 'Mayat Tengkorak cicak';
+        }
+    }function Touchme() {
+    Touchme1.innerHTML = "<h2>Hapids Cinta Meikel</h2>";
+    }function Nodaime() {
+    Touchme2.innerHTML = "<h2>I'm Junior Proggramer </h2>";
+    }function Siksame() {
+        alert('Bunuhhh Diaaa...')
+        alert('Dorr Dorr Dorr...')
+    }
+    
+</script>
+</body>
+</html>
